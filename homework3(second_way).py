@@ -22,7 +22,7 @@ list_quarters = ["в 1 четверти",
                  "на оси ординат"]
 
 print("Введите координаты точки ")
-x = int(input("введите точку x :"))
-y = int(input("введите точку y :"))
+x = float(input("введите точку x :"))
+y = float(input("введите точку y :"))
 result = pred(int(x), int(y))
 print(f"данная точка находится {list_quarters[result]} ")
