@@ -1,7 +1,7 @@
 # Напишите программу, которая принимает на вход цифру, 
 # обозначающую день недели, и проверяет, является ли этот день выходным
 
-list_of_weekdays = ["Mondey","Tuesday","Wednesday","Thurthday","Friday","Saturday","Sunday"]
+list_of_weekdays = ["Mondey","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"]
 number_of_weekday = input("Введите номер дня недели (от 1 до 7) ")
 #  в while запрет на ввод данных , отличных от цифр 1,2,3,4,5,6,7
 while len(number_of_weekday) > 1 or not (48 < ord(number_of_weekday) < 56):  
